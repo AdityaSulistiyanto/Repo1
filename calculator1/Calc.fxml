@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="372.0" prefWidth="264.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator1.CalcController">
+   <children>
+      <Button fx:id="nol" layoutX="79.0" layoutY="303.0" mnemonicParsing="false" onAction="#nol" prefHeight="48.0" prefWidth="51.0" text="0" />
+      <Button fx:id="satu" layoutX="21.0" layoutY="248.0" mnemonicParsing="false" onAction="#satu" prefHeight="48.0" prefWidth="51.0" text="1" />
+      <Button fx:id="titik" layoutX="135.0" layoutY="303.0" mnemonicParsing="false" onAction="#titik" prefHeight="48.0" prefWidth="51.0" text="." />
+      <Button fx:id="tambahkurang" layoutX="21.0" layoutY="303.0" mnemonicParsing="false" onAction="#tambahkurang" prefHeight="48.0" prefWidth="51.0" text="+/-" />
+      <Button fx:id="tiga" layoutX="135.0" layoutY="248.0" mnemonicParsing="false" onAction="#tiga" prefHeight="48.0" prefWidth="51.0" text="3" />
+      <Button fx:id="dua" layoutX="79.0" layoutY="248.0" mnemonicParsing="false" onAction="#dua" prefHeight="48.0" prefWidth="51.0" text="2" />
+      <Button fx:id="empat" layoutX="22.0" layoutY="193.0" mnemonicParsing="false" onAction="#empat" prefHeight="48.0" prefWidth="51.0" text="4" />
+      <Button fx:id="enam" layoutX="136.0" layoutY="193.0" mnemonicParsing="false" onAction="#enam" prefHeight="48.0" prefWidth="51.0" text="6" />
+      <Button fx:id="lima" layoutX="80.0" layoutY="193.0" mnemonicParsing="false" onAction="#lima" prefHeight="48.0" prefWidth="51.0" text="5" />
+      <Button fx:id="tujuh" layoutX="22.0" layoutY="137.0" mnemonicParsing="false" onAction="#tujuh" prefHeight="48.0" prefWidth="51.0" text="7" />
+      <Button fx:id="sembilan" layoutX="136.0" layoutY="137.0" mnemonicParsing="false" onAction="#sembilan" prefHeight="48.0" prefWidth="51.0" text="9" />
+      <Button fx:id="delapan" layoutX="80.0" layoutY="137.0" mnemonicParsing="false" onAction="#delapan" prefHeight="48.0" prefWidth="51.0" text="8" />
+      <Button fx:id="CE" alignment="TOP_CENTER" contentDisplay="CENTER" depthTest="ENABLE" layoutX="22.0" layoutY="80.0" mnemonicParsing="false" onAction="#cleare" prefHeight="48.0" prefWidth="51.0" stylesheets="@btntransparan.css" text="CE" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="191.0" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets top="9.0" />
+         </padding></Button>
+      <Button fx:id="back" layoutX="136.0" layoutY="80.0" mnemonicParsing="false" onAction="#back" prefHeight="48.0" prefWidth="51.0" text="Back" />
+      <Button fx:id="C" layoutX="80.0" layoutY="80.0" mnemonicParsing="false" onAction="#clear" prefHeight="48.0" prefWidth="51.0" text="C" />
+      <Button fx:id="samadengan" layoutX="193.0" layoutY="303.0" mnemonicParsing="false" onAction="#samadengan" prefHeight="48.0" prefWidth="51.0" text="=" />
+      <Button fx:id="tambah" layoutX="193.0" layoutY="248.0" mnemonicParsing="false" onAction="#tambah" prefHeight="48.0" prefWidth="51.0" text="+" />
+      <Button fx:id="kurang" layoutX="194.0" layoutY="193.0" mnemonicParsing="false" onAction="#kurang" prefHeight="48.0" prefWidth="51.0" text="-" />
+      <Button fx:id="kali" layoutX="194.0" layoutY="137.0" mnemonicParsing="false" onAction="#kali" prefHeight="48.0" prefWidth="51.0" text="x" />
+      <Button fx:id="bagi" layoutX="194.0" layoutY="80.0" mnemonicParsing="false" onAction="#bagi" prefHeight="48.0" prefWidth="51.0" text="÷" />
+      <TextField fx:id="jtxtTampilan" alignment="CENTER_RIGHT" layoutX="22.0" layoutY="21.0" prefHeight="48.0" prefWidth="219.0" stylesheets="@btntransparan.css">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>
